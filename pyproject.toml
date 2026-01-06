@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "htmldocx"
+version = "0.0.6"
+description = "Convert html to docx"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "pqzx"},
+    {name = "Majd Alsado", email = "majd@alsado.ca"}
+]
+dependencies = [
+    "beautifulsoup4>=4.8.0",
+    "python-docx>=1.2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/majdalsado/html2docx"
+Repository = "https://github.com/majdalsado/html2docx.git"
+
+[tool.setuptools]
+packages = ["htmldocx"]
+
